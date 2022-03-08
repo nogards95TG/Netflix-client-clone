@@ -1,0 +1,14 @@
+<ngx-slick-carousel 
+class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig"
+>
+    <div ngxSlickItem *ngFor="let movie of nowPlayingMovies" class="slide">
+        <div>        
+            <app-movie-card [movie]='movie'></app-movie-card>
+        </div>
+    </div>
+</ngx-slick-carousel>
+
+<button class="next-slide " (click)="nextSlide()"> > </button>
+<button class="prev-slide " (click)="prevSlide()"> < </button>

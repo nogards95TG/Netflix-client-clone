@@ -1,0 +1,17 @@
+
+<app-movie-modal></app-movie-modal>
+
+<div class="row">
+    <app-sidebar></app-sidebar>
+</div>
+<div class="row">
+    <app-navbar></app-navbar>
+</div>
+
+<div class="popular-container">
+    <div *ngFor="let movie of nowPlayingMovies">
+        <div class="popular-movies">
+            <app-movie-card [movie]='movie'></app-movie-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<app-movie-modal></app-movie-modal>
+
+<div class="row">
+    <app-sidebar></app-sidebar>
+</div>
+<div class="row">
+    <app-navbar></app-navbar>
+</div>
+
+<div class="search-container">
+    <div *ngFor="let movie of searchResults">
+        <div class="movie-info p-1" *ngIf='movie.backdrop_path' onClick="toggleModal()" (click)=updateModal(movie)>
+            <div class="info-layer">
+                <p>{{movie?.title}}</p>
+            </div>
+            <img src="https://image.tmdb.org/t/p/w500{{movie?.backdrop_path}}" style="width: 340px; height: 200px;" alt="">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="row">
+    <app-sidebar></app-sidebar>
+</div>
+<app-movie-modal></app-movie-modal>
+<div class="container-fluid">
+
+    <div class="row">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="row">
+        <app-banner></app-banner>
+    </div>
+
+    <div class="spacing-div"></div>
+
+    <div class="row slider-title">
+        <div class="m-2">Popolari:</div>
+        <div>
+            <app-slider class="d-flex flex-column"></app-slider>
+        </div>
+    </div>
+
+    <div class="row slider-title">
+        <div class="m-2">Più votati:</div>
+        <div>
+            <app-top-rated-slider class="d-flex flex-column"></app-top-rated-slider>
+        </div>
+    </div>
+
+    <div class="row slider-title">
+        <div class="m-2">Al cinema:</div>
+        <div>
+            <app-now-playing-slider class="d-flex flex-column"></app-now-playing-slider>
+        </div>
+    </div>
+    
+</div>
+

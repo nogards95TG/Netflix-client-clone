@@ -1,0 +1,22 @@
+
+<div 
+class="bg-img" 
+*ngIf="bannerUrl"
+[ngStyle]="{ 'background-image': 'url(https://image.tmdb.org/t/p/original'+ bannerUrl +')' }"
+>
+
+    <div class="black-layer">
+        <div class="row margin-custom">
+            <div class="col-sm-12 col-md-5">
+                <h1>{{randomMovie?.title}}</h1>
+                <div class="txt-container">
+                    <a href="" class="my-btn">Riproduci</a>
+                    <a href="" class="my-btn">La mia lista</a>
+                    <p style="font-size: 20px;">{{randomMovie?.overview}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  -->

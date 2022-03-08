@@ -1,0 +1,15 @@
+.popular-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.title {
+    position: relative;
+    z-index: 100;
+}
+
+.popular-movies { padding: 10px 10px 0px 20px;  }

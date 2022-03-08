@@ -1,0 +1,42 @@
+
+* { padding: 0px; margin: 0px; }
+
+.my-nav { position: absolute; left: 0; }
+.hamb-icon { display: flex; flex-direction: column; }
+
+.hamb-line {
+    width: 25px;
+    margin: 3px 6px;
+    background-color: white;
+    height: 2px;
+    border-radius: 20px;
+}
+
+.search-icon { 
+    color: white; 
+    text-decoration: none;
+    margin: 7px 16px;
+    transform: scale(140%);
+}
+
+.logo {
+    margin: 0px 24px;
+}
+
+.text-field {
+    display: inline;
+    background-color: black;
+    color: white;
+    border: 3px solid lightgrey;
+}
+
+.text-field:focus { 
+    border: 3px solid blue;
+}
+
+.home {
+    color: white;
+    transform: scale(140%);
+    margin-top: 7px;
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+.bg-img {
+    width: 100vw;
+    margin: 0 auto;
+    height: 90vh;
+    background-position: top center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.margin-custom { padding: 120px 60px ;}
+
+.black-layer {
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0,0,0,0.20), rgba(0, 0, 0, 0.92));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+    h1 { font-size: 3.2rem; }
+    p { font-size: 1.3rem; margin-top: 16px; }
+    h1, p { color: white }
+}
+
+.my-btn {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:  white;
+    font-weight: 700;
+    padding: 12px 40px;
+    background-color: rgb(63, 63, 63);
+    opacity: 0.7;
+    margin-right: 16px;
+    border-radius: 3px;
+    &:hover {
+        color: black;
+        background-color: white;
+    } 
+}
+
+
+.txt-container { margin-top: 64px; }

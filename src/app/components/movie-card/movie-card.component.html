@@ -1,0 +1,5 @@
+<div class="movie-card" *ngIf="movie" onClick="toggleModal()" (click)="toggleModal()">
+    <img [src]="'https://image.tmdb.org/t/p/w200' + movie.poster_path" alt="" style="height: 270px; width: 180px;">
+</div>
+
+

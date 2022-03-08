@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.bg-color { background-color: black; }
+
+.lock-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
