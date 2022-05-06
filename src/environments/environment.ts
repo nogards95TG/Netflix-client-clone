@@ -3,10 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  apiKey: 'b167c582a06d2aec3eee4ab5556ec340',
+  apiKey: 'b167c582a06d2a*c3***4ab5556*c340',
   moviesEndpoint: 'https://api.themoviedb.org/3/movie/',
   myServerEndpoint: 'http://localhost:3001/movies/',
-  production: false
+  production: true
 };
 
 /*
@@ -16,4 +16,4 @@ export const environment = {
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
  */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+//*=2 import 'zone.js/plugins/zone-error';  // Included with Angular CLI.

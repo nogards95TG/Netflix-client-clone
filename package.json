@@ -1,6 +1,7 @@
 {
   "name": "netflix-clone",
   "version": "0.0.0",
+  "author": "nogards95TG",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
